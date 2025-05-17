@@ -33,6 +33,18 @@ class Motorcycle(Vehicle):
     def stop(self):
         print("Motorcycle is stopping!!!")
 
+class Plane(Vehicle):
+    def __init__(self, brand, model, year,no_of_wheels):
+        super().__init__(brand, model, year)
+        self.no_of_wheels = no_of_wheels
+
+    def start(self):
+        print("Plane is flying")
+    
+    def stop(self):
+        print("Plane is stopping")
+
+
 vehicles = [
     Car("Ford","Focus",2008,5),
     Motorcycle("Honda","Scoopy",2018)
