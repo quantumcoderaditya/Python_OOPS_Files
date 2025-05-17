@@ -61,3 +61,6 @@ for vehicle in vehicles:
     else:
         print("Wrong Vehicle")
 
+# Here in the above code we have inherited the superclass Vehicle and also overrided its functions like start and stop by naming it similar to start and stop of super class Vehicle 
+
+# So, despite Car and Motorcycle being two different types of vehicles we can treat them as same with the help of Polymorphism and all of the instances of both classes as same of vehicle class 
